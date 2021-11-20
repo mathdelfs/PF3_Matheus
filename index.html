@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de TPA</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Prova de TPA </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o valor aplicado mensalmente (R$)? Ex: 100" type="number" id='p' required="required">
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a taxa de juros (%)? Ex: 1"  type="number" id='i' required="required">
+        </div>
+        
+        <div class="input">
+          <input placeholder="Qual é o número de parcelas mensais? Ex: 10" type="number" id='n' required="required">
+     </div>
+
+        <button id='calcular' type='submit'> Calcular </button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! O professor deve corrigir esta prova com muito carinho! </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
